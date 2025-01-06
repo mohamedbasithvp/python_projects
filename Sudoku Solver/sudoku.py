@@ -1,7 +1,8 @@
-from pprint import pprint
+from pprint import pprint # pretty-print
 
 
-def find_next_empty(puzzle):
+# This function searches for the next empty spot in the Sudoku board, represented by -1.
+def find_next_empty(puzzle): # puzzle: A list of lists representing the Sudoku board.
     # finds the next row, col on the puzzle that's not filled yet --> rep with -1
     # return row, col tuple (or (None, None) if there is none)
 
@@ -9,21 +10,21 @@ def find_next_empty(puzzle):
     for r in range(9):
         for c in range(9):  # range(9) is 0, 1, 2, ... 8
             if puzzle[r][c] == -1:
-                return r, c
+                return r, c # A tuple (row, col) indicating the position of the next empty cell
 
-    return None, None  # if no spaces in the puzzle are empty (-1)
+    return None, None # if there are no empty cells.
 
 
+# This function checks if a guessed number is valid according to Sudoku rules (no repetition in the row, column, or 3x3 square).
 def is_valid(puzzle, guess, row, col):
     # figures out whether the guess at the row/col of the puzzle is a valid guess
     # returns True or False
-
     # for a guess to be valid, then we need to follow the sudoku rules
     # that number must not be repeated in the row, column, or 3x3 square that it appears in
 
     # let's start with the row
-    row_vals = puzzle[row]
-    if guess in row_vals:
+    row_vals = puzzle[row] # [puzzle[row][i] for i in range(9)]
+    if guess in row_vals: # guess: The number to be placed.
         return False  # if we've repeated, then our guess is not valid!
 
     # now the column
@@ -90,5 +91,5 @@ if __name__ == '__main__':
         [6, 7, -1, 1, -1, 5, -1, 4, -1],
         [1, -1, 9, -1, -1, -1, 2, -1, -1]
     ]
-    print(solve_sudoku(example_board))
+    solve_sudoku(example_board)
     pprint(example_board)

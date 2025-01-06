@@ -10,6 +10,7 @@ class TicTacToe:
     def print_board(self):
         # this is just getting the rows
         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
+            # print("basith:",row)
             print('| ' + ' | '.join(row)+' |')
 
     @staticmethod

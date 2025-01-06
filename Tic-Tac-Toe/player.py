@@ -1,7 +1,6 @@
 import math
 import random
 
-from wx.lib.masked import value
 
 
 class Player:

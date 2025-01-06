@@ -26,6 +26,7 @@ class Board:
         # but since we have a 2-D board, list of lists is most natural)
 
         # generate a new board
+
         board = [[None for _ in range(self.dim_size)] for _ in range(self.dim_size)]
         # this creates an array like this:
         # [[None, None, ..., None],
@@ -71,10 +72,8 @@ class Board:
         # bottom left: (row+1, col-1)
         # bottom middle: (row+1, col)
         # bottom right: (row+1, col+1)
-
         # make sure to not go out of bounds!
-
-        num_neighboring_bombs = 0
+        num_neighboring_bombs = 0   #1,3    1,3
         for r in range(max(0, row - 1), min(self.dim_size - 1, row + 1) + 1):
             for c in range(max(0, col - 1), min(self.dim_size - 1, col + 1) + 1):
                 if r == row and c == col:
@@ -86,20 +85,13 @@ class Board:
         return num_neighboring_bombs
 
     def dig(self, row, col):
-        # dig at that location!
-        # return True if successful dig, False if bomb dug
-
-        # a few scenarios:
-        # hit a bomb -> game over
-        # dig at location with neighboring bombs -> finish dig
-        # dig at location with no neighboring bombs -> recursively dig neighbors!
-
+        # adds the cell to the dug set
         self.dug.add((row, col))  # keep track that we dug here
 
         if self.board[row][col] == '*':
-            return False
+            return False # signaling game over
         elif self.board[row][col] > 0:
-            return True
+            return True # since the dig was safe
 
         # self.board[row][col] == 0
         for r in range(max(0, row - 1), min(self.dim_size - 1, row + 1) + 1):
@@ -112,11 +104,6 @@ class Board:
         return True
 
     def __str__(self):
-        # this is a magic function where if you call print on this object,
-        # it'll print out what this function returns!
-        # return a string that shows the board to the player
-
-        # first let's create a new array that represents what the user would see
         visible_board = [[None for _ in range(self.dim_size)] for _ in range(self.dim_size)]
         for row in range(self.dim_size):
             for col in range(self.dim_size):
@@ -162,19 +149,10 @@ class Board:
 
         return string_rep
 
-
 # play the game
 def play(dim_size=10, num_bombs=10):
-    # Step 1: create the board and plant the bombs
     board = Board(dim_size, num_bombs)
-
-    # Step 2: show the user the board and ask for where they want to dig
-    # Step 3a: if location is a bomb, show game over message
-    # Step 3b: if location is not a bomb, dig recursively until each square is at least
-    #          next to a bomb
-    # Step 4: repeat steps 2 and 3a/b until there are no more places to dig -> VICTORY!
     safe = True
-
     while len(board.dug) < board.dim_size ** 2 - num_bombs:
         print(board)
         # 0,0 or 0, 0 or 0,    0

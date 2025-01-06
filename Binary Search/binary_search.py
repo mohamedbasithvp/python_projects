@@ -1,4 +1,3 @@
-
 import random
 import time
 # implementation of binary search algorithm.
@@ -26,7 +25,6 @@ def binary_search(l, target, low=None, high=None):
 
     if high < low:
         return - 1
-
     # example l = [1,3,5,10,12] should return 3
     midpoint=(low+high) // 2 # 2
 
@@ -48,8 +46,9 @@ if __name__=='__main__':
     # build a sorted list of length 10000
     sorted_list=set()
     while len(sorted_list) < length:
-        sorted_list.add(random.randint(-3*length, 3*length))
+        sorted_list.add(random.randint(-3*length, 3*length)) # This generates a random integer between -30,000 and 30,000.
     sorted_list = sorted(list(sorted_list))
+    # print(sorted_list)
 
     start=time.time()
     for target in sorted_list:

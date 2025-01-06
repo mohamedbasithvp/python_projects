@@ -1,8 +1,6 @@
 import math
 import random
 
-from wx.lib.masked import value
-
 class Player:
     def __init__(self, letter):
         # letter is x or o

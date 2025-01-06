@@ -26,4 +26,4 @@ if __name__ == '__main__':
         'war baby',
         'every season'
     ]
-    save_lyrics(songs, 'roddy ricch', '')
+    save_lyrics(songs, 'roddy rich', '')

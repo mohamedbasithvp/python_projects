@@ -15,6 +15,6 @@ def computer_vision(x):
             high=guess-1
         elif feedback == 'l':
             low=guess+1
-    print(f'Yey! The Computer your number, {guess}, correctly')
+    print(f'Yey! The Computer guess your number, {guess}, correctly')
 
 computer_vision(10)

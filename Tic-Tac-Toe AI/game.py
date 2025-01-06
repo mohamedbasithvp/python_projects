@@ -122,12 +122,12 @@ if __name__ == '__main__':
     x_wins=0
     o_wins=0
     ties=0
-    for _ in range(5):
-        # x_player = HumanPlayer('X')
-        x_player = RandomComputerPlayer('X')
+    for _ in range(1):
+        x_player = HumanPlayer('X')
+        # x_player = RandomComputerPlayer('X')
         o_player = GeniusComputerPlayer('O')
         t=TicTacToe()
-        result=(play(t, x_player, o_player, print_game=False))
+        result=(play(t, x_player, o_player, print_game=True))
         if result == 'X':
             x_wins += 1
         elif result == 'O':

@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8723a0ed-f058-4b87-8e04-c1b086e9356f" name="Changes" comment="" />
+    <list default="true" id="8723a0ed-f058-4b87-8e04-c1b086e9356f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Hangman/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sudoku Solver/.idea/Sudokku Solver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guess the Number (Computer)/guess_the_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess the Number (Computer)/guess_the_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guess the Number (User)/guess_the_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess the Number (User)/guess_the_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman/hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mine Sweaper/minesweaaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mine Sweaper/minesweaaper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock Paper Scissor/rock_paper_scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock Paper Scissor/rock_paper_scissor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sudoku Solver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku Solver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sudoku Solver/sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku Solver/sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe AI/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe AI/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe AI/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe AI/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-Toe/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-Toe/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-composer/lyrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-composer/lyrics.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -27,12 +49,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.binary_search.executor": "Run",
+    "Python.compose.executor": "Run",
+    "Python.game (1).executor": "Run",
     "Python.game.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "Python.graph.executor": "Run",
+    "Python.guess_the_number (1).executor": "Run",
+    "Python.guess_the_number.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.lyrics.executor": "Run",
+    "Python.madlibs.executor": "Run",
+    "Python.minesweaaper.executor": "Run",
+    "Python.player (1).executor": "Run",
+    "Python.player.executor": "Run",
+    "Python.rock_paper_scissor.executor": "Run",
+    "Python.sudoku.executor": "Run",
+    "Python.transform.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.game">
-    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.game (1)">
+    <configuration name="game (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python Projects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,6 +86,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic-Tac-Toe AI/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tic-Tac-Toe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic-Tac-Toe/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,16 +138,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="player (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tic-Tac-Toe AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic-Tac-Toe AI/player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tic-Tac-Toe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic-Tac-Toe/player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python Projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoku Solver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoku Solver/sudoku.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.game (1)" />
+        <item itemvalue="Python.player (1)" />
         <item itemvalue="Python.game" />
+        <item itemvalue="Python.player" />
+        <item itemvalue="Python.sudoku" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
